@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirection…</title>
+    <!-- Redirection immédiate côté navigateur -->
+    <meta http-equiv="refresh" content="0; url=./site_camping_accueil.html" />
+    <link rel="canonical" href="./site_camping_accueil.html" />
+    <meta name="robots" content="noindex" />
+    <script>
+      // Fallback JS si la meta-refresh est bloquée
+      (function () {
+        var target = "./site_camping_accueil.html";
+        window.location.replace(target);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>
+      Redirection en cours… Si rien ne se passe, 
+      <a href="./site_camping_accueil.html">clique ici</a>.
+    </p>
+  </body>
+</html>
